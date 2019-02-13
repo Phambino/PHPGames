@@ -1,0 +1,1 @@
+state|s:3:"rps";user|s:7:"gekyume";Frog|O:4:"Frog":1:{s:8:"position";a:7:{i:0;i:1;i:1;i:1;i:2;i:1;i:3;i:0;i:4;i:-1;i:5;i:-1;i:6;i:-1;}}RPS|O:3:"RPS":7:{s:7:"history";s:9:"you lose!";s:5:"state";s:9:"you lose!";s:10:"totalgames";i:2;s:4:"wins";i:0;s:6:"losses";i:2;s:5:"draws";i:0;s:3:"num";i:1;}
