@@ -11,35 +11,6 @@ Implemented:
    Explanation: created schema, including appuser table, populated with 
    default user. Also created handler for login state as well as login page.
 
-1) Registration
-   Done by: David Pham
-   Explanation: created schema, included appuser table, populated with default user.
-   Also created handler for registration state as well as registration page.
-
-2) Game Hub
-   Done by: David Pham
-   Explanation: MVC for the hub to handle the states of all games.
-   Also created handler for Game Hub state as well as Game Hub page.
-   
-3) Guess Game
-   Done by: David Pham
-   Explanation: Guess game using sessions storing information in each indiviudal sessions.
-   Also created handler for Guess Game state as well as Guess Game page.
-
-4) Frog Game
-   Done by: David Pham
-   Explanation: Frog Game using sessions storing information in each indiviudal sessions.
-   Also created handler for Frog Game state as well as Game page.
-
-5) Rock Paper Scissors Game
-   Done by: David Pham
-   Explanation: RPS game using sessions storing information in each indiviudal sessions.
-   Also created handler for rock paper scissors state as well as rock paper scissors page.
-
 ------------------------------------------------------------------------------------
 Unimplemented:
 ------------------------------------------------------------------------------------
-3) 15 Game
-4) Security for login, and registration. Therefore, others can steal session information
-5) Game Stats Page
-6) User profile Page

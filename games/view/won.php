@@ -11,30 +11,18 @@
 	</head>
 	<body>
 		<?php include("header.html");  ?>
-		<?php   ?>
 		<main>
 			<section>
 			<h1>GuessGame</h1>
-			<?php if($_SESSION["GuessGame"]->getState()!="correct"){ ?>
-				<form method="post">
-					<input type="text" name="guess" value="<?php echo($_REQUEST['guess']); ?>" /> <input type="submit" name="submit" value="guess" />
-				</form>
-			<?php } ?>
-			
-			<?php echo(view_errors($errors)); ?> 
-
+			<?php echo(view_errors($errors)); ?>
 			<?php 
 				foreach($_SESSION['GuessGame']->history as $key=>$value){
 					echo("<br/> $value");
 				}
-				if($_SESSION["GuessGame"]->getState()=="correct"){ 
 			?>
-					<form method="post">
-						<input type="submit" name="submit" value="start again" />
-					</form>
-			<?php 
-				} 
-			?>
+			<form method="post">
+				<input type="submit" name="submit" value="start again" />
+			</form>
 			</section>
 			<section class='stats'>
 				<h1>Stats</h1>

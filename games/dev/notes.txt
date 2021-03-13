@@ -1,6 +1,9 @@
-./setup.sh UTORID 142.1.200.132 UTORID_309 libraryBarcode[-7:-2]
+./setup.sh webdbuser localhost webdb password
 
-# DB_HOST = 142.1.200.132
-# DB_USER = YOUR UTORID
-# DB_PASSWORD = libraryBarcode[-7:-2] % in python notation
-# DB_NAME = UTORID_309
+# DB_HOST = localhost
+# DB_USER = webdbuser
+# DB_PASSWORD = password
+# DB_NAME = webdb
+
+# If you want to talk directly to the db, with password: password
+# psql -U webdbuser -d webdb -h localhost 
